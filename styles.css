@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+  --header-font: "Inconsolata", monospace;
+  --error-font: "Space Mono", monospace;
+  --primary-color: #333333;
+  --secondary-color: #4f4f4f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
