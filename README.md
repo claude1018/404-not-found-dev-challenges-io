@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/DfrNLdBNLo60N2wiZLzm">
       Solution
     </a>
     <span> | </span>
@@ -47,6 +47,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
     </a>.</p>
 ### Built With
 
+- Semantic HTML
 - CSS Custom Properties
 - Flexbox
 - Mobile-first workflow
