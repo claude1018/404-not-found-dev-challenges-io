@@ -15,4 +15,74 @@
 
 body {
   margin: 0;
+  font-family: var(--error-font);
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1288px;
+  margin: 0 auto;
+}
+
+.nav-brand {
+  padding: 0.75em 0;
+}
+.nav-brand__link {
+  font-family: var(--header-font);
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.5625rem;
+  letter-spacing: -0.08em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.error {
+  padding: 1.5em 0;
+}
+
+.error .col + .col {
+  margin-top: 2em;
+}
+
+.error__message--title {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 4.4375rem;
+  letter-spacing: -0.035em;
+}
+
+.error__message--description {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+  letter-spacing: -0.035em;
+  color: var(--secondary-color);
+}
+
+.error__message--goback {
+  /* Button appearance */
+  background-color: var(--primary-color);
+  margin-top: 3.2em;
+  display: inline-block;
+  padding: 1.7em 3.1em;
+  /* font-styling */
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
